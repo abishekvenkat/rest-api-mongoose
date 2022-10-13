@@ -1,0 +1,28 @@
+GET http://localhost:3000/people
+
+###
+
+GET http://localhost:3000/people/63479b7e2b514c77a8fd0b69
+
+###
+
+POST http://localhost:3000/people
+Content-Type: application/json
+
+{
+    "name": "Abishek V",
+    "age": "26"
+}
+
+###
+
+PATCH http://localhost:3000/people/63479fc3e58fbbd30500dc7d
+Content-Type: application/json
+
+{
+    "name": "Abishek V"
+}
+
+###
+
+DELETE http://localhost:3000/people/63479f159b11e5df508df62f
